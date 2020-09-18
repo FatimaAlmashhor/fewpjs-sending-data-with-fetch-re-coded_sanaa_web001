@@ -12,7 +12,7 @@ function submitData(name , email) {
   })
 }
     fetch('http://localhost:3000/user' ,configurationObject )
-    then(function(response) {
+    .then(function(response) {
     return response.json();
   })
   .then(function(object) {
